@@ -101,3 +101,25 @@ body{
 .card .details .contents .social-icons a:hover{
     background-color: #e21212;
 }
+.card .details .contents .more{
+    justify-content: center;
+    align-items: center; 
+    margin: 20px;
+}
+.card .details .contents button a{
+    display: flex;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    margin: 20px 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    bottom: 0;
+    position: absolute;
+    background: #03045e;
+    border: 1px solid #e63946;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
